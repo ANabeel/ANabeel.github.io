@@ -32,6 +32,8 @@ header {
 	padding: 0;
 	max-width: 150px;
 	max-height: 150px;
+
+
 }
 
 nav {
@@ -72,28 +74,34 @@ nav li {
 }
 
 .prenav p {
-	margin: 2.5em 2em 0;
+	margin: 2.5em 4em 0;
 	line-height: 1.75em;
 	font-size: 17px;
 	color: #656260;
+}
+
+
+.prenav a {
+	color: #4f7671;
 }
 
 a { 
     color: inherit;
 }
 
-a:link {
+nav a:link {
     text-decoration: none;
 }
 
-a:visited {
+nav a:visited {
     text-decoration: none;
 }
 
-a:active {
+nav a:active {
     text-decoration: none;
 }
 
-a:hover {
+nav a:hover {
     text-decoration: none;
+	color: #4f7671;
 }
