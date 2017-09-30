@@ -105,3 +105,21 @@ nav a:hover {
     text-decoration: none;
 	color: #4f7671;
 }
+
+/*Media queries*/
+@media (max-width: 600px) {
+	.prenav p:first-child {
+		margin: 0.5em;
+	}
+
+	.prenav p {
+		margin: 1.5em;
+		font-size: 15px;
+		text-align: justify;
+	}
+
+	nav ul li{
+		display: block;
+		margin: 1em 0 1.5em;
+	}
+}
