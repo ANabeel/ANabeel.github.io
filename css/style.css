@@ -1,4 +1,4 @@
-
+		
 body {
     width: 100%;
     height: 100%;
@@ -51,7 +51,7 @@ nav ul {
 
 nav ul li {
 	display: inline-block;
-	margin: 3em 2em;
+	margin: 2.5em 2em;
 }
 
 nav li a {
@@ -67,30 +67,32 @@ nav li a:hover {
 	background-color: #4f7671
 }
 
-.prenav {
+.mainBody {
 	display: flex;
 	flex-direction: column;
 	padding: 0.25em;
 	margin: 2.5em 0 0;
 }
 
-.prenav p:first-child {
+h3 {
 	font-weight: bold;
 	font-size: 30px;
 	color: #4f7671;
-	margin-top: 1em;
 	text-align: center;
+	margin: 0;
+	padding: 0;
+	margin: 0.75em 0;
 }
 
-.prenav p {
-	margin: 2.5em 4em 0;
+.mainBody p {
+	margin: 0.25em 4em;
 	line-height: 1.75em;
 	font-size: 17px;
 	color: #656260;
 }
 
 
-.prenav a {
+.mainBody a {
 	color: #4f7671;
 }
 
@@ -117,11 +119,11 @@ nav a:hover {
 
 /*Media queries*/
 @media (max-width: 600px) {
-	.prenav p:first-child {
+	h3 {
 		margin: 0.5em;
 	}
 
-	.prenav p {
+	.mainBody p {
 		margin: 1.5em;
 		font-size: 15px;
 		text-align: justify;
