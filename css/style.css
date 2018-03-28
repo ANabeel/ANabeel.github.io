@@ -2,24 +2,23 @@
 body {
     width: 100%;
     height: 100%;
-    background: #ffffff url("../bg.png");                     
-    background-repeat:   no-repeat;
+    background: #ffffff url("../bg.png") no-repeat;
     color: #3b3b3b;
     padding: 0;
     margin: 0;
-    display: flex;
-    flex-direction: column;
     font-family: 'Lato', sans-serif;
     overflow-x: hidden;
 }
 
 header {
-
+	width: 100%;
 	display: flex;
-	flex-direction: column;
-	padding: auto;
-	margin: auto;
+	flex-direction: row;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
 }
+	
 
 header img {
 	height:200px;
@@ -29,19 +28,20 @@ header img {
 }
 
 box-wrapper {
-	width: 25%;
-	margin: auto;
-	padding: auto;
+	max-width: 100%;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 
 }
 
 main {
 	margin-top: 5em;
-	width: 100%;
-	height: auto;
 	border:0.25em solid #fff;
 	background-color: #082942;
-
+	
 }
 
 main:hover {
@@ -75,25 +75,12 @@ main p {
 	}
 
 /*Media queries*/
-@media (max-width: 600px) {
-	h3 {
-		margin: 0.5em;
+@media (max-width: 800px) {
+ 
+ 		
+	header img {
+		height:160px;
+		width: 140px;
 	}
-
-	.mainBody p {
-		margin: 1.5em;
-		font-size: 15px;
-		text-align: justify;
-	}
-
-	nav {
-		margin: 0 1em 1em;
-	}
-
-	nav ul li{
-		display: block;
-		margin: 0;
-		padding: 1em 3em;
-		text-align: center;
-	}
-}url("../bg.png")
+	
+}
