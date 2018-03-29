@@ -80,6 +80,11 @@ article {
 	padding: 1em;
 	margin: 2em 4em;
 	text-align: justify;
+	border:0.25em solid #fff;
+	background-color: #082942;
+	}
+article p {
+	line-height: 1em;
 	}
 
 .hidden {
