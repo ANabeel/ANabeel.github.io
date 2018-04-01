@@ -91,6 +91,10 @@ article p {
 	display: none;
 	}
 
+#float {
+	float: right;
+	}
+
 /*Media queries*/
 @media (max-width: 800px) {
  
